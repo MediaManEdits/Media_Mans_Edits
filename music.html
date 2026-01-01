@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Releases - MediaMan's Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(to bottom, 
+                #55CDFC 0%, #55CDFC 20%,
+                #F7A8B8 20%, #F7A8B8 40%,
+                #FFFFFF 40%, #FFFFFF 60%,
+                #F7A8B8 60%, #F7A8B8 80%,
+                #55CDFC 80%, #55CDFC 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .home-link { margin: 30px 0; font-size: 1.2rem; }
+        .home-link a { color: #333; text-decoration: none; padding: 10px 20px; background-color: rgba(255, 255, 255, 0.85); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s; }
+        .home-link a:hover { background-color: rgba(255, 255, 255, 1); }
+
+        h1 { text-align: center; color: #333; margin: 20px 20px 40px; font-size: 2.5rem; }
+
+        .music-list {
+            width: 90%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .music-item {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .music-item:hover { transform: translateY(-5px); }
+
+        .music-item img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            flex-shrink: 0;
+        }
+
+        .music-content { flex: 1; }
+
+        .music-content h3 { margin: 0 0 10px 0; color: #333; }
+        .music-content p { margin: 8px 0; color: #555; }
+        .music-content a { color: #0066cc; text-decoration: none; font-weight: bold; }
+        .music-content a:hover { text-decoration: underline; }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .music-list { width: 95%; }
+            .music-item { flex-direction: column; align-items: center; text-align: center; }
+            .music-item img { width: 100%; max-width: 300px; height: auto; }
+        }
+    </style>
+</head>
+<body>
+    <div class="home-link">
+        <a href="index.html">← Back to Homepage</a>
+    </div>
+
+    <h1>Music Releases</h1>
+
+    <div class="music-list">
+        <div class="music-item">
+            <img src="Chastity Front Cover.jpg" alt="Chastity Cover Art">
+            <div class="music-content">
+                <h3>Chastity</h3>
+                <p>01. Shitter for Hire (Chastity's Anthem)</p>
+                <p>02. Rape My Shithole Raw (Chastity’s Prayer)</p>
+                <p>03. Please Wreck My Little Shithole (Chastity’s Begging Mix)</p>
+                <p>04. Godzilla in Her Guts</p>
+                <p>05. Bad Guy (Shitter Version)</p>
+                <p>06. Daddy Don’t Stop (Even When I Break)</p>
+                <p>07. 14 Inches of Memory Lane</p>
+                <p>08. Choke Princess</p>
+                <p>09. Cobra in the Temple</p>
+                <p>10. Industry Veins</p>
+                <p>Bonus. Veins Full of Cum & Contracts</p>
+                <p><a href="https://soundcloud.com/mediaman-187384032/sets/chastity" target="_blank">Listen on SoundCloud</a> | 
+                   <a href="https://mega.nz/folder/ENtG2CbD#RH_J7BuWc5FHK5SaFW9M0A" download>Download (MP3)</a></p>
+            </div>
+        </div>
+
+        <div class="music-item">
+            <div class="music-content">
+                <h3>Thickest Only (Filthstep Drop Edition)</h3>
+                <p>My first EP/Single</p>
+                <p><a href="https://soundcloud.com/mediaman-187384032/thickest-only-filthstep-drop-edition" target="_blank">Listen on SoundCloud</a> | 
+                   <a href="https://mega.nz/file/rQEGERAK#B8MkfUbQjFLAJ7uqFj5VD9F7WFlaZ7Dr0B7DAyBTKVw" download>Download (MP3)</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
