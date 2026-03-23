@@ -2,86 +2,118 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MediaMan's Website</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            min-height: 100vh;
-            background: linear-gradient(to bottom, 
-                #55CDFC 0%,   /* Light blue */
-                #55CDFC 20%,
-                #F7A8B8 20%,  /* Light pink */
-                #F7A8B8 40%,
-                #FFFFFF 40%,  /* White */
-                #FFFFFF 60%,
-                #F7A8B8 60%,
-                #F7A8B8 80%,
-                #55CDFC 80%,
-                #55CDFC 100%);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-            margin: 40px 20px 60px;
-            font-size: 2.5rem;
-        }
-
-        .container {
-            display: flex;
-            gap: 80px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .box {
-            width: 300px;
-            height: 300px;
-            background-color: rgba(255, 255, 255, 0.85);
-            border-radius: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            color: #333;
-            font-size: 2rem;
-            font-weight: bold;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .box:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-                align-items: center;
-                gap: 40px;
-            }
-            
-            h1 {
-                font-size: 2rem;
-                margin: 30px 20px 40px;
-            }
-        }
-    </style>
+    <title> MediaMuse• Video Edits</title>
 </head>
-<body>
-    <h1>Welcome to MediaMan's Website!<br>Below are my Music Releases and Video Edits</h1>
 
-    <div class="container">
-        <a href="videos.html" class="box">Video Edits</a>
-        <a href="music.html" class="box">Music Releases</a>
-    </div>
+<body bgcolor="#000000" text="#00FF00" link="#00FFFF" vlink="#00FFFF" alink="#FFFF00">
+    <center>
+
+        <!-- 90s-style header -->
+        <h1>
+            <font face="Arial Black" size="7" color="#FFFF00">MediaMuse</font>
+        </h1>
+        <h2>
+            <font face="Courier New" size="5" color="#00FF00">VIDEO EDITS FROM THE OLD WEB</font>
+        </h2>
+
+        <!-- TAB NAVIGATION - pure HTML table, no CSS, no JS -->
+        <!-- On the homepage the HOME tab is highlighted with a different background and border -->
+        <table width="700" border="4" cellpadding="8" cellspacing="3" bgcolor="#333333" align="center">
+            <tr>
+                <!-- HOME (active) -->
+                <td align="center" bgcolor="#FFFF00" width="140">
+                    <font face="Arial" size="4" color="#000000">
+                        <b>HOME</b>
+                    </font>
+                </td>
+                
+                <!-- ABOUT ME -->
+                <td align="center" bgcolor="#00FF00" width="140">
+                    <font face="Arial" size="4" color="#000000">
+                        <a href="about.html" style="text-decoration:none; color:#000000">
+                            <b>ABOUT ME</b>
+                        </a>
+                    </font>
+                </td>
+                
+                <!-- MY EDITS -->
+                <td align="center" bgcolor="#00FF00" width="140">
+                    <font face="Arial" size="4" color="#000000">
+                        <a href="edits.html" style="text-decoration:none; color:#000000">
+                            <b>MY EDITS</b>
+                        </a>
+                    </font>
+                </td>
+                
+                <!-- GALLERY -->
+                <td align="center" bgcolor="#00FF00" width="140">
+                    <font face="Arial" size="4" color="#000000">
+                        <a href="gallery.html" style="text-decoration:none; color:#000000">
+                            <b>GALLERY</b>
+                        </a>
+                    </font>
+                </td>
+                
+                <!-- CONTACT -->
+                <td align="center" bgcolor="#00FF00" width="140">
+                    <font face="Arial" size="4" color="#000000">
+                        <a href="contact.html" style="text-decoration:none; color:#000000">
+                            <b>CONTACT</b>
+                        </a>
+                    </font>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Spacer -->
+        <hr width="80%" color="#00FF00" size="3">
+
+        <!-- MARQUEE - peak 90s -->
+        <marquee behavior="scroll" direction="left" width="70%" scrollamount="8">
+            <font face="Arial" color="#FFFF00" size="5">
+                ★ NEW EDITS JUST UPLOADED ★ CHECK THE "MY EDITS" TAB ★
+            </font>
+        </marquee>
+
+        <hr width="80%" color="#00FF00" size="3">
+
+        <!-- MAIN CONTENT - exactly as you asked: super simple write-up -->
+        <table width="650" border="0" cellpadding="20" cellspacing="0" bgcolor="#111111">
+            <tr>
+                <td align="center">
+                    <font face="Verdana" size="6" color="#FFFF00">
+                        WELCOME TO MY CORNER OF THE WEB
+                    </font>
+                    
+                    <br><br>
+                    
+                    <font face="Courier New" size="4" color="#00FF00">
+                        Hey there! I'm <b>MediaMuse</b>.<br><br>
+                        
+                        I make raw, high-energy video edits. Fast cuts, wild effects, perfect syncs — the kind of stuff that would make a middle aged farmer have a heart attack as he wept from seeing it's beauty.<br><br>
+                        
+                        Everything you see here was built the old-school way: pure HTML, no JavaScript, no fancy frameworks. Just like the mid-90s internet I grew up on.<br><br>
+                        
+                        Use the bright tabs at the top to explore the rest of the site. That's all there is to it!
+                    </font>
+                    
+                    <br><br>
+                    
+                    <font face="Arial" size="3" color="#00FFFF">
+                        (Pro tip: this whole site works in any browser — even the old ones)
+                    </font>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Another classic 90s touch -->
+        <br>
+        <hr width="50%" color="#00FF00" size="1">
+        <font face="Courier New" size="2" color="#555555">
+            Last updated: March 2026 • Built with nothing but HTML • 
+            <a href="mailto:1971ChevyC20@protonmail.com">email me</a>
+        </font>
+
+    </center>
 </body>
 </html>
